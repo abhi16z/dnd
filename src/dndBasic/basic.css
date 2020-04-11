@@ -3,11 +3,12 @@
   width: 100px;
   border: 1px solid grey;
   cursor: move;
+  margin: 20px;
 }
 
 .dragTarget {
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   border: 1px solid grey;
   margin-top: 100px;
 }

@@ -6,7 +6,7 @@ export default function BasicDND() {
   }
 
   const handleDragStart = (id) => (event) => {
-    event.preventDefault();
+
 
     console.log('%c handleDragStart', 'color: red', id, event.target.id);
     // event.dataTransfer.dropEffect = "link";
@@ -57,7 +57,7 @@ export default function BasicDND() {
 
 
   return (
-    <div>
+    <div style={{display: 'flex'}}>
       <div
         className="draggable"
         id="draggable1"

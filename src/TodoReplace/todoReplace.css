@@ -5,10 +5,12 @@
   padding: 20px;
   position: sticky;
   top: 0;
+  z-index: 999999;
 }
 
 .status-header {
   font-size: 22px;
+  font-weight: 600;
 }
 
 button {
